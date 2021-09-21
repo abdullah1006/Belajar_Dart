@@ -65,9 +65,9 @@ void balanceCheck() {
 void transfer() {
   print('\nTransfer');
   stdout.write('Masukkan Username Tujuan : ');
-  String namaTujuan = stdin.readLineSync()!;
-  if (namaTujuan != userList[usrLogin].name) {
-    checkUserTransfer(namaTujuan)
+  String usrDestination = stdin.readLineSync()!;
+  if (usrDestination != userList[usrLogin].name) {
+    checkUserTransfer(usrDestination)
         ? processTransfer()
         : print(
             'User tidak ada\n',

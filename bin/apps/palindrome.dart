@@ -5,10 +5,10 @@ bool isPalindrom(String words) {
 bool _isPalindromeRecursive(String value, int i) {
   value = value.toLowerCase();
   if (i < value.length / 2) {
-    int indexAwal = i;
-    int indexAkhir = value.length - i - 1;
+    int fristIndex = i;
+    int lastIndex = value.length - i - 1;
 
-    if (value[indexAwal] != value[indexAkhir]) {
+    if (value[fristIndex] != value[lastIndex]) {
       return false;
     } else {
       return _isPalindromeRecursive(value, i + 1);
