@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-03T07:15:36.421Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="b4l82VBZkVRRRCNc4-CF" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-03T07:25:27.329Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="UOy7ILKe3AczPe9s0Nf8" version="16.1.2" type="github">
   <diagram id="qYPbZKdNKogrdKeQCUUp" name="Page-1">
-    <mxGraphModel dx="1211" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2423" dy="1391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,12 +16,18 @@
         <mxCell id="wOSAmqLvzSA3cVCKRzat-4" value="Menu Utama" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="60" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wOSAmqLvzSA3cVCKRzat-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="wOSAmqLvzSA3cVCKRzat-5" target="wOSAmqLvzSA3cVCKRzat-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="wOSAmqLvzSA3cVCKRzat-5" target="wOSAmqLvzSA3cVCKRzat-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="539.9999999999998" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="323" y="640" />
+              <mxPoint x="490" y="640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="wOSAmqLvzSA3cVCKRzat-15" value="Materi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="wOSAmqLvzSA3cVCKRzat-14">
           <mxGeometry x="-0.4873" y="3" relative="1" as="geometry">
-            <mxPoint x="73" y="40" as="offset" />
+            <mxPoint x="73" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wOSAmqLvzSA3cVCKRzat-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="wOSAmqLvzSA3cVCKRzat-5" target="wOSAmqLvzSA3cVCKRzat-16">
@@ -68,9 +74,6 @@
         </mxCell>
         <mxCell id="wOSAmqLvzSA3cVCKRzat-5" value="Pilih Menu" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="240" y="535" width="110" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="wOSAmqLvzSA3cVCKRzat-6" value="Tampilan Page Materi" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="510" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wOSAmqLvzSA3cVCKRzat-7" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wOSAmqLvzSA3cVCKRzat-2" target="wOSAmqLvzSA3cVCKRzat-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -170,6 +173,62 @@
         </mxCell>
         <mxCell id="wOSAmqLvzSA3cVCKRzat-49" value="User Input Kelas" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="235" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-55" value="Tampilan Page Materi" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="700" y="715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="wOSAmqLvzSA3cVCKRzat-56" target="wOSAmqLvzSA3cVCKRzat-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-59" value="Kelas 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="wOSAmqLvzSA3cVCKRzat-57">
+          <mxGeometry x="-0.1828" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="wOSAmqLvzSA3cVCKRzat-56" target="wOSAmqLvzSA3cVCKRzat-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="745" />
+              <mxPoint x="630" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-62" value="Kelas 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="wOSAmqLvzSA3cVCKRzat-61">
+          <mxGeometry x="0.0434" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="wOSAmqLvzSA3cVCKRzat-56" target="wOSAmqLvzSA3cVCKRzat-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-66" value="Kelas 4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="wOSAmqLvzSA3cVCKRzat-64">
+          <mxGeometry x="-0.1952" y="-2" relative="1" as="geometry">
+            <mxPoint x="13" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="wOSAmqLvzSA3cVCKRzat-56" target="wOSAmqLvzSA3cVCKRzat-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-68" value="Kelas 5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="wOSAmqLvzSA3cVCKRzat-67">
+          <mxGeometry x="0.2774" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-56" value="Kelas yang&lt;br&gt;dipilih Di&lt;br&gt;Page Pilih Kelas" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="390" y="670" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-60" value="Tampilan Page Materi" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="650" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-63" value="Tampilan Page Materi" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="510" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOSAmqLvzSA3cVCKRzat-65" value="Tampilan Page Materi" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="310" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
